@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <title>Background Image</title>
+    <link rel="stylesheet" href="style1.css">
+	<style>
+		body {
+			background-image: url("lens.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenskart</title>
+    
+</head>
+<body>
+	<header>
+		
+        <div class="img"></div>
+        <img src="lens.png">
+         		<nav>
+<h2>Login</h2>
+    <form action="login.php" method="POST">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+			</form>
+        </nav>
+    </div>
+    <ul>
+        <li><a href="#eyeglasses">Eyeglasses</a></li> 
+        <img src="eyeglasses.jfif" alt="Product A">
+        <h1> 350 rs</h1>
+
+        <li><a href="#sunglasses">Sunglasses</a></li> 
+        <img src="sunglasses.jfif" alt="Product A">
+        <h1> 300 rs</h1>
+        <li><a href="#contact">Contact</a></li> 
+        <img src="contact.jpg" alt="Product A">
+        <h1> 999 rs</h1>
+    </ul>
+</nav>
+</header>
+
+<main>
+<section id="hero">
+    <h2>Find Your Perfect Pair</h2>
+    <p>With our wide selection of eyeglasses and sunglasses, you're sure to find the perfect pair for you.</p>
+    <a href="#eyeglasses" class="btn">See Eyeglasses</a>
+    <a href="#sunglasses" class="btn">See Sunglasses</a>
+</section>
+
+<section id="eyeglasses">
+    <h2>Eyeglasses</h2>
+    <ul>
+        <li>Round</li>
+        <li>Rectangle</li>
+        <li>Square</li>
+        <li>Aviator</li>
+    </ul>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section id="sunglasses">
+    <h2>Sunglasses</h2>
+    <ul>
+        <li>Wayfarer</li>
+        <li>Aviator</li>
+        <li>Round</li>
+        <li>Rectangle</li>
+    </ul>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="name" required><br>
+         </section>
+</body>
+</html>
